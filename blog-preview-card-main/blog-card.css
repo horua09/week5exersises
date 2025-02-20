@@ -62,7 +62,8 @@ body {
     font-size: 16px;
 }
 .author-image {
+    display: flex;
     margin-left: 12px;
     margin-bottom: 16px;
-    width: 8px;
+    
 }
