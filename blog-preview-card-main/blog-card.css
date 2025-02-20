@@ -1,0 +1,68 @@
+@font-face {
+    font-family: figtree;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: figtree;
+}
+.flex {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.card {
+    display:flex;
+    background-color: White;
+    border-radius: 10px;
+    width: 270px;
+    height: 400px;
+    box-shadow: 10px 9px black;
+    flex-direction: column;
+    justify-content: space-between;
+    border: black 5px;
+}
+.article-image img { 
+   
+    border-radius: 6px;
+    width: 90%;
+    
+   
+}
+.article-image {
+    padding: 18px 18px 18px 18px;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    margin-left: 12px;
+    font-size: 10px;
+}
+.learning {
+    background-color: hsl(47, 88%, 63%) ;
+    margin-left: 12px;
+    padding-right: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    width: 40px;
+    border-radius: 5px;
+    
+}
+.date {
+    margin-left: 12px;
+    font-size: 10px;
+}
+.foundations {
+    margin-left: 12px;
+    font-size: 16px;
+}
+.author-image {
+    margin-left: 12px;
+    margin-bottom: 16px;
+    width: 8px;
+}
