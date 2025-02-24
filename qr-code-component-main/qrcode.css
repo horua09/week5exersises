@@ -1,0 +1,24 @@
+.border {
+    background-color: lightblue;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+}
+.qrcode {
+    display: flex;
+    width: 175px;
+    flex-direction: column;
+    padding: 12px;
+}
+.title {
+    font-weight: bold;
+    font-size: 15px;
+}
+.text {
+    font-size: 15px;
+    color: grey;
+}
+img {
+    border-radius: 14px;
+}
